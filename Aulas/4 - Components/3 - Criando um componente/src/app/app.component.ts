@@ -6,9 +6,10 @@ import { RouterOutlet } from '@angular/router';
   imports: [RouterOutlet],
   template: `
   <h1>Template geral</h1>
+  <p class="texto">Teste de texto funcional</p>
   `,
   styles: [`
-      .name{}
+      .texto{color: blue}
     `]
 })
 export class AppComponent {
