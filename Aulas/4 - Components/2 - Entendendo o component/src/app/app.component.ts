@@ -10,10 +10,11 @@ import { RouterOutlet } from '@angular/router';
   template: `
     <h1>Component angular</h1>
     <p>Teste de texto aleatorio</p>
-  `
+  `,// O arquivo template é usado para renderizar template que é direcionado a ele e aparece direto na pagina
   //templateUrl: './app.component.html', esse arquivo puxa um html pra focar como principal
   //styleUrl: './app.component.css', // esse syle pode ser utilizado mas só da pra puxar 1 arquivo css
   //styleUrls: ['./app.component.css'] // nesse podesse adicionar mais de um css
+  styles: [`.name{}`]
 })
 export class AppComponent {
   title = 'componentProject';
