@@ -36,16 +36,16 @@ um componente filho com base em um valor definido
 em seu componente pai.
 */
 
-:host-context(.theme-dark){
+:host-context(.tema-preto){
   h2 {
     background: #000;
     color: #fff;
   }
 }
 
-:host-context(.theme-red){
+:host-context(.tema-vermelho){
   h2{
-    background-color: red;
+    background-color: red; //Quem manda é que ta dentro do Host
   }
 }
 
