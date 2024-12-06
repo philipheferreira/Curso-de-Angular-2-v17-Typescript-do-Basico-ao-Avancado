@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './teste.component.scss'
 })
 export class TesteComponent {
-
+  nome = 'Philiphe siqueira Ferreira';
+  idade = 28;
+  profissao = 'Engenheiro da computação'
 }

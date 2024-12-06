@@ -9,5 +9,5 @@ import { TesteComponent } from './components/teste/teste.component'
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'projectTemplate';
+
 }
