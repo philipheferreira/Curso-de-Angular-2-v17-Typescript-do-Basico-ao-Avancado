@@ -12,6 +12,7 @@ export class TesteComponent {
   public isDisable2 = false;
   public imgValue = 'https://media.gq.com/photos/55828b3f1177d66d68d5287c/1:1/w_450,h_450,c_limit/blogs-the-feed-how-i-met-your-mother-barney-stinson.jpg'
 
+  // teste de reatividade com um constructor
   constructor(){
     setTimeout( () => {
       this.nome = "João e Jherson"
