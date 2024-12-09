@@ -8,5 +8,16 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
+  public nome = "Philiphe Siqueira Ferreira"
+  public idade = 28;
   title = 'projectBinding';
+
+public soma() {
+  return this.idade++;
+}
+
+public sub() {
+  return this.idade--;
+}
+
 }
