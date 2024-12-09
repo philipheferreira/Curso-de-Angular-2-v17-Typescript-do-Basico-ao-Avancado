@@ -11,7 +11,6 @@ export class AppComponent {
   public title = "Algo"
   public idade = 32;
   public nome = "Philiphe Siqueira Ferreira";
-  public condition = this.idade > 1 ? 'Teste1' : 'Teste2';
 
-  public isTextDecoration = this.idade >= 32;
+  public isTextDecoration = this.idade >= 32 ? 'underline': 'none';
 }
