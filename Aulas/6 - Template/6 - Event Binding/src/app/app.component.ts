@@ -20,4 +20,17 @@ public sub() {
   return this.idade--;
 }
 
+public onKeyDown(event: any){
+  return console.log(event);
+}
+
+public onMouseEvent(event: MouseEvent){
+  return console.log({
+    clientX: event.clientX,
+    clientY: event.clientY,
+  });
+}
+
+
+
 }

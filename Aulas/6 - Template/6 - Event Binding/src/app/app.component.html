@@ -15,6 +15,14 @@
     <button (click)="soma()">Soma</button>
 
     <button (click)="sub()">Subtração</button>
+
+    <input (keydown.shift.t)="onKeyDown($event)"> <!-- Quando pressionar o botão shift e t ira acionar algo. O event faz receber algumas propriedades para ações -->
+
+    <div style="background: red; width: 300px; height: 300px; margin-top: 10px;"
+    (mousemove)="onMouseMove($event)">
+
+    </div>
+
   </div>
 </main>
 
