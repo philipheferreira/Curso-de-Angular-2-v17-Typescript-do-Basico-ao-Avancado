@@ -15,7 +15,7 @@ export class TesteComponent {
   // teste de reatividade com um constructor
   constructor(){
     setTimeout( () => {
-      this.nome = "João e Jherson"
+      this.nome = "João e Jherson" // Consigo definir que farei uma modificação na variavel nome depois de 1segundo
     }, 1000);
   }
 
