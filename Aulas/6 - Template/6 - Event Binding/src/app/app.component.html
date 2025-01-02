@@ -6,11 +6,21 @@
 
     <h2>Event binding</h2>
 
+    <!-- Exemplo geral de binding
+      <element
+          (TargetEventName)='TemplateStatement'
+      ></element>
+
+    -->
+
+
     <h4 [class.background-vermelho]="idade > 32" [class.background-azul]="idade < 32">
       {{nome}}
     </h4>
 
     <h3> {{idade}} </h3>
+
+
 
     <button (click)="soma()">Soma</button>
 

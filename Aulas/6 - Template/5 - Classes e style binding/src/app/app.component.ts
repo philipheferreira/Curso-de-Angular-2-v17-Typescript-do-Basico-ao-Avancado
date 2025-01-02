@@ -13,5 +13,5 @@ export class AppComponent {
   public idade = 32;
   public nome = "Philiphe Siqueira Ferreira";
 
-  public isTextDecoration = this.idade >= 32 ? 'underline': 'none';
+  public isTextDecoration = this.idade >= 32 ? 'underline': 'none'; // caso o valor seja maior que 32 ou igual o texto aparece com underline, menor é a segunda opção
 }
