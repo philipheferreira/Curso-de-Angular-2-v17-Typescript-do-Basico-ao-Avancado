@@ -4,7 +4,11 @@
 <main class="main">
   <div class="content">
     <h2>Class and Style binding</h2>
-    <p [class.background-red]="idade >= 32" [class.background-azul]="idade > 32" >
+    <p [class.background-vermelho]="idade >= 32" [class.background-azul]="idade > 32" >
+      {{ nome }}
+    </p>
+
+    <p [class.background-vermelho]="idade <= 32" [class.background-azul]="idade > 32">
       {{ nome }}
     </p>
 

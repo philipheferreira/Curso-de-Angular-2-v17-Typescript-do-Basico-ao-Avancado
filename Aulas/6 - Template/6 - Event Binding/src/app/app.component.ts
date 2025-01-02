@@ -7,6 +7,7 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
+
 export class AppComponent {
   public nome = "Philiphe Siqueira Ferreira"
   public idade = 28;
@@ -30,7 +31,5 @@ public onMouseEvent(event: MouseEvent){
     clientY: event.clientY,
   });
 }
-
-
 
 }
