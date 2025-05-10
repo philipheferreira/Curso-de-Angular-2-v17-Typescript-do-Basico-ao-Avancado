@@ -8,15 +8,15 @@ import { NewComponent } from './components/new-component/new-component.component
   template: `
   <h1>Template geral</h1>
   <p class="texto">Teste de texto funcional</p>
-  Antigo: <app-new-component></app-new-component> <!-- Para aparecer ele é necessario realizar a chamada -->
-  Novo: <app-new-component/>
+  Antigo: <app-new-component></app-new-component> <!-- Para aparecer ele é necessario realizar a chamada. Assim -->
+  Novo: <app-new-component/> <!-- Chamada mais rapida e pratca -->
   `,
-  styles: [`
+  styles: [` /* parte de estilização local */
       .texto{color: blue}
     `]
 })
-export class AppComponent {
-  title = 'componentProject';
+export class AppComponent { /* Criação de variaveis que podem ser chamadas */
+  title = 'componentProject'; // Nome do component
 }
 
 
