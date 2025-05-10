@@ -1,0 +1,3 @@
+Cursso  angular latest: https://github.com/troquatte/curso-angular-latest
+
+instruções videos angular: https://vidafullstack.com.br/instrucoes-para-o-curso/
