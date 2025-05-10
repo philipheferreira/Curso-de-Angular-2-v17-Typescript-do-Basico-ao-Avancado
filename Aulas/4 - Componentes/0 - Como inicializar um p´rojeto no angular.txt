@@ -1,0 +1,13 @@
+criar um projeto no angular:
+
+* ng new nome-do-projeto
+
+Rodar o projeto no Angular: 
+
+* cd nome-do-projeto
+
+* ng serve
+
+Abrir o navegador no localhost padrão criado: 
+
+* http://localhost:4200
