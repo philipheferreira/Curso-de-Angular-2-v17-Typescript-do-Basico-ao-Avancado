@@ -1,0 +1,27 @@
+Primeiro é bom verificar se o node foi instalado e a versão do Node: 
+
+* node -v
+
+* npm -v
+
+abrir o prompt de comando e instalar globalmente a versão mais atual do angular: 
+
+* npm install -g @angular/cli
+
+Verificar se a instalação foi bem sucedida verificando a versão do angular: 
+
+* ng version
+
+criar um projeto no angular:
+
+* ng new nome-do-projeto
+
+Rodar o projeto no Angular: 
+
+* cd nome-do-projeto
+
+* ng serve
+
+Abrir o navegador no localhost padrão criado: 
+
+* http://localhost:4200
