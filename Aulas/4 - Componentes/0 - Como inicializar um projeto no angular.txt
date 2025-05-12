@@ -2,6 +2,15 @@ criar um projeto no angular:
 
 * ng new nome-do-projeto
 
+Verificar versão do Angular: 
+
+* ng version
+
+ou
+
+* ng v 
+
+
 Rodar o projeto no Angular: 
 
 * cd nome-do-projeto
