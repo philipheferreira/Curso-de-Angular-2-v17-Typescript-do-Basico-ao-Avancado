@@ -4,7 +4,7 @@ import { NewComponent } from './components/new-component/new-component.component
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NewComponent], // precisa declarar ele no imports
+  imports: [RouterOutlet, NewComponent], // precisa declarar ele no imports para funcionar
   template: `
   <h1>Template geral</h1>
   <p class="texto">Teste de texto funcional</p>

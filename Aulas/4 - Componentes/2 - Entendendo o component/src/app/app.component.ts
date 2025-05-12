@@ -1,3 +1,5 @@
+/* Essa não é a arquitetura padrão de components */
+
 /* Para esse projeto será deletado os arquivos components de html, css e spec e sera utilizado
 apenas o que tiver dentro do component */
 

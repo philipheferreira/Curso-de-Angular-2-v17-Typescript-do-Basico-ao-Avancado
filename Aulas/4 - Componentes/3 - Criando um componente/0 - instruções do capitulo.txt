@@ -1,0 +1,9 @@
+Comando para criar um novo component:
+
+* ng g component components/new-component
+
+O comando a cima cria uma pasta dentro da pasta components e todos os arquivos de components dentro dessa pasta new-component criada. Caso a pasta components não exista ela é criada também.
+
+Outra forma de chamar componentes é a de baixo:
+
+* ng g c new-component
