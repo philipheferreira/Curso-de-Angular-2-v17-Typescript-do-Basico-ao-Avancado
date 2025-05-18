@@ -8,8 +8,7 @@ import { Component } from '@angular/core';
 })
 export class TesteComponent {
   public nome = 'Philiphe Siqueira Ferreira'
-  public isDisable1 = true; // Como passar um valor verdadeiro então o botão realmente é desabilitado
-  public isDisable2 = false;
+  public estadoDesabilitado = true; // Como passar um valor verdadeiro então o botão realmente é desabilitado
   public imgValue = 'https://media.gq.com/photos/55828b3f1177d66d68d5287c/1:1/w_450,h_450,c_limit/blogs-the-feed-how-i-met-your-mother-barney-stinson.jpg'
 
   // teste de reatividade com um constructor
