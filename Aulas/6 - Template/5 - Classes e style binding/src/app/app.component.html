@@ -4,15 +4,20 @@
 <main class="main">
   <div class="content">
     <h2>Class and Style binding</h2>
-    <p [class.background-vermelho]="idade > 32" [class.background-azul]="idade <= 32" >
+
+    <p [class.background-vermelho]='true'> primeiro exemplo de funcionamento</p> <!-- desde que o class.algumaCoisa retorne true ele será utilizado, se não ele não sera utilizado -->
+
+    <p [class.background-azul]="true"> Segundo exemplo de funcionamento</p> <!-- desde que o class.algumaCoisa retorne true ele será utilizado, se não ele não sera utilizado -->
+
+    <p [class.background-vermelho]="valor > 32" [class.background-azul]="valor <= 32" > <!-- Fiz um layout que dependendo do valor dentro da variavel valor ela retorna false ou true para um dos class -->
       {{ nome }}
     </p>
 
-    <p [class.background-vermelho]="idade <= 32" [class.background-azul]="idade > 32">
+    <p [class.background-vermelho]="valor <= 32" [class.background-azul]="valor > 32"> <!-- Fiz um layout que dependendo do valor dentro da variavel valor ela retorna false ou true para um dos class -->
       {{ nome }}
     </p>
 
-    <p [style.text-decoration]="isTextDecoration">{{idade}}</p>
+    <p [style.text-decoration]="isTextDecoration">{{valor}}</p>
   </div>
 </main>
 
