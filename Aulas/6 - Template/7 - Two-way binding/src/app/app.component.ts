@@ -8,5 +8,26 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'project-template';
+  public nome = "Philiphe Siqueira Ferreira"
+  public idade = 28;
+  title = 'projectBinding';
+
+public soma() {
+  return this.idade++;
+}
+
+public sub() {
+  return this.idade--;
+}
+
+public onKeyDown(event: any){
+  return console.log(event);
+}
+
+public onMouseEvent(event: MouseEvent){
+  return console.log({
+    clientX: event.clientX,
+    clientY: event.clientY,
+  });
+}
 }
