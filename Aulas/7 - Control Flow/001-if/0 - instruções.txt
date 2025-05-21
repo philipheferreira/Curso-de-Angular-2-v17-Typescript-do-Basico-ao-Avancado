@@ -1,0 +1,3 @@
+Foi usado um comando para criar a pagina que ira ter os comandos de flow
+
+* ng g c components/template/template-control-flow
