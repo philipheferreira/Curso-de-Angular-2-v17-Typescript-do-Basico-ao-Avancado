@@ -62,7 +62,7 @@ em seu componente pai.
 */
 
 ::ng-deep {
-  .theme-red{
+  .theme-red{ /* mudar o nome para .tema-vermelho para ver */
     border: 5px solid blue;
   }
 }
