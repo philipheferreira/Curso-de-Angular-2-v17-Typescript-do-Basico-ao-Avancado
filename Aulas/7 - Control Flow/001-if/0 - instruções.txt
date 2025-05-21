@@ -1,0 +1,3 @@
+Usei um comando para criar um componente 
+
+* ng g c components/template/template-control-flow
