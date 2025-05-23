@@ -25,7 +25,7 @@ public onKeyDown(event: any){
   return console.log(event);
 }
 
-public onMouseEvent(event: MouseEvent){
+public movimentoDoMouse(event: MouseEvent){
   return console.log({
     clientX: event.clientX,
     clientY: event.clientY,
