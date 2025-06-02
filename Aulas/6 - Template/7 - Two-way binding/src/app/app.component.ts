@@ -1,33 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { FormsModule } from '@angular/forms' // importar o ngModule do forms
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, FormsModule], // toda vez que for utilizar o ngModule com import necessario importar FormsModule
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
   public nome = "Philiphe Siqueira Ferreira"
-  public idade = 28;
-  title = 'projectBinding';
 
-public soma() {
-  return this.idade++;
-}
-
-public sub() {
-  return this.idade--;
-}
-
-public onKeyDown(event: any){
-  return console.log(event);
-}
-
-public onMouseMove(event: MouseEvent){
-  return console.log({
-    clientX: event.clientX,
-    clientY: event.clientY,
-  });
-}
 }

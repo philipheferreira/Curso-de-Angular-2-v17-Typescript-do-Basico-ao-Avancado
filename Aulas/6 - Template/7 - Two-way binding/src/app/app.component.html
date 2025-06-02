@@ -2,37 +2,11 @@
 <main class="main">
   <div class="content">
 
-    <hr />
+    <h3>Two-way binding</h3>
 
-    <h2>Event binding</h2>
+    {{nome}}
 
-    <!-- Exemplo geral de binding
-      <element
-          (TargetEventName)='TemplateStatement'
-      ></element>
-
-    -->
-
-
-    <h4 [class.background-vermelho]="idade > 32" [class.background-azul]="idade < 32">
-      {{nome}}
-    </h4>
-
-    <h3> {{idade}} </h3>
-
-
-
-    <button (click)="soma()">Soma</button>
-
-    <button (click)="sub()">Subtração</button>
-
-    <input (keydown.shift.t)="onKeyDown($event)"> <!-- Quando pressionar o botão shift e t ira acionar algo. O event faz receber algumas propriedades para ações -->
-
-    <div style="background: red; width: 300px; height: 300px; margin-top: 10px;"
-    (mousemove)="onMouseMove($event)">
-
-    </div>
-
+    <input [(ngModel)]="nome" >
   </div>
 </main>
 
