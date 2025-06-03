@@ -1,17 +1,25 @@
+<!-- Diretivas de atributo: Iremos utilizar diretivas de atributo nessa aula pratica (NgClass e NgStyle especificamente)
+ As diretivas estão separadas do template. Nas novas versões as diretias serão utilizadas para fazer uma
+ coisa ou outra. Existem as diretivas de atributos e estruturais, os dois casos não serão utilizadas
+ tanto. No lugar das diretivas estruturais, nas novas versões, é solicitado para utilizar o
+ controle de fluxo, ou control flow
+-->
 
-<main class="main">
-  <div class="content">
-    <h3></h3>
-    <div class="left-side">
-      <input [(ngModel)]="nome" />
+<!-- O NgClass é muito m=parecido com os comandos de class binding [class.background-red]="" -->
+<main>
+    <h2>Template</h2>
+    <h3>Diretivas de atributo</h3>
+    <div [ngClass]="{'background-vermelho': true }">Chamada de Classes pelo Ng</div> <!-- Realizando as chamadas e modificações
+    Pelos comandos de classe -->
+    <div [ngClass]="{ 'background-vermelho': idade > 35, 'background-azul' : idade < 35}">Classes condicionais</div>
+    <div style="background: violet;">Usando o style direto para estilizar</div>
+    <div [ngStyle]="{
+        color: idade > 35 ? 'green' : 'red',
+        'font-size': idade > 35 ? '10px' : '20px'
+      }"
+    > <!-- Chamada de ngStyle utilizando criação de condicionais-->
+    Estilo dinâmico
     </div>
-    <div class="divider" role="separator" aria-label="Divider"></div>
-    <div class="right-side">
-
-      {{nome}}
-
-    </div>
-  </div>
 </main>
 
 <router-outlet />
