@@ -3,10 +3,13 @@
   <div class="content">
 
     <h3>Two-way binding</h3>
-
-    {{nome}}
-
-    <input [(ngModel)]="nome" >
+    <div class="left-side">
+      <input [(ngModel)]="nome" >
+    </div>
+    <div class="divider" role="separator" arial-label="Divider"></div>
+    <div class="right-side">
+      {{nome}}
+    </div>
   </div>
 </main>
 
