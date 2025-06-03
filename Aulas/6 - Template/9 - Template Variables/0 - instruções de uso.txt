@@ -1,0 +1,25 @@
+Verificar versão do Angular: 
+
+* ng version
+
+ou
+
+* ng v 
+
+Rodar o projeto no Angular: 
+
+* ng serve
+
+Criar componente no projeto:
+
+ng g component components/template/template-variables
+
+Cria uma pasta components com uma parta new component dentro com todas as definições de component dentro
+
+Caso os terminais ainda não estejam instalados é só usar o comando: 
+
+* npm install
+
+Abrir o navegador no localhost padrão criado: 
+
+* http://localhost:4200
